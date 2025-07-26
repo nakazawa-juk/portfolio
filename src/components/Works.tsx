@@ -4,29 +4,35 @@ import { ExternalLink, Github } from 'lucide-react';
 const Works = () => {
   const projects = [
     {
-      title: "E-commerce SaaS Platform",
-      description: "Full-stack e-commerce solution built with Next.js and AWS. Features include inventory management, payment processing, and analytics dashboard.",
-      technologies: ["Next.js", "TypeScript", "AWS", "Stripe"],
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      demoUrl: "#",
-      codeUrl: "#"
+      title: 'E-commerce SaaS Platform',
+      description:
+        'Full-stack e-commerce solution built with Next.js and AWS. Features include inventory management, payment processing, and analytics dashboard.',
+      technologies: ['Next.js', 'TypeScript', 'AWS', 'Stripe'],
+      image:
+        'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
+      demoUrl: '#',
+      codeUrl: '#',
     },
     {
-      title: "Real-time Chat Application",
-      description: "WebSocket-based chat application with React frontend and Express backend. Supports multiple rooms, file sharing, and user authentication.",
-      technologies: ["React", "Express", "Socket.io", "MongoDB"],
-      image: "https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=600",
-      demoUrl: "#",
-      codeUrl: "#"
+      title: 'Real-time Chat Application',
+      description:
+        'WebSocket-based chat application with React frontend and Express backend. Supports multiple rooms, file sharing, and user authentication.',
+      technologies: ['React', 'Express', 'Socket.io', 'MongoDB'],
+      image:
+        'https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=600',
+      demoUrl: '#',
+      codeUrl: '#',
     },
     {
-      title: "Task Management Dashboard",
-      description: "Comprehensive project management tool built with Vue.js. Features Kanban boards, time tracking, and team collaboration tools.",
-      technologies: ["Vue.js", "Node.js", "PostgreSQL", "Docker"],
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
-      demoUrl: "#",
-      codeUrl: "#"
-    }
+      title: 'Task Management Dashboard',
+      description:
+        'Comprehensive project management tool built with Vue.js. Features Kanban boards, time tracking, and team collaboration tools.',
+      technologies: ['Vue.js', 'Node.js', 'PostgreSQL', 'Docker'],
+      image:
+        'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
+      demoUrl: '#',
+      codeUrl: '#',
+    },
   ];
 
   return (
@@ -37,8 +43,8 @@ const Works = () => {
             Featured Works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A selection of projects showcasing my experience in building modern web applications
-            and SaaS solutions.
+            A selection of projects showcasing my experience in building modern
+            web applications and SaaS solutions.
           </p>
         </div>
 

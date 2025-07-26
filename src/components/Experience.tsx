@@ -5,31 +5,38 @@ const Experience = () => {
   const highlights = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: "Full-Stack Development",
-      description: "End-to-end development from requirements analysis to deployment"
+      title: 'Full-Stack Development',
+      description:
+        'End-to-end development from requirements analysis to deployment',
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "Team Collaboration",
-      description: "Extensive experience in both large-scale and startup environments"
+      title: 'Team Collaboration',
+      description:
+        'Extensive experience in both large-scale and startup environments',
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      title: "Rapid Development",
-      description: "Focused on efficiency and speed without compromising quality"
+      title: 'Rapid Development',
+      description:
+        'Focused on efficiency and speed without compromising quality',
     },
     {
       icon: <Calendar className="w-6 h-6" />,
-      title: "Project Leadership",
-      description: "Led multiple projects from zero-to-one implementation"
-    }
+      title: 'Project Leadership',
+      description: 'Led multiple projects from zero-to-one implementation',
+    },
   ];
 
   const companies = [
-    { name: "Startup A", role: "Senior Frontend Developer", period: "2023 - Present" },
-    { name: "Tech Corp", role: "Full-Stack Developer", period: "2022 - 2023" },
-    { name: "Innovation Lab", role: "Web Developer", period: "2021 - 2022" },
-    { name: "Digital Agency", role: "Junior Developer", period: "2020 - 2021" }
+    {
+      name: 'Startup A',
+      role: 'Senior Frontend Developer',
+      period: '2023 - Present',
+    },
+    { name: 'Tech Corp', role: 'Full-Stack Developer', period: '2022 - 2023' },
+    { name: 'Innovation Lab', role: 'Web Developer', period: '2021 - 2022' },
+    { name: 'Digital Agency', role: 'Junior Developer', period: '2020 - 2021' },
   ];
 
   return (
@@ -40,14 +47,17 @@ const Experience = () => {
             Experience
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Young but experienced developer with a proven track record in diverse development environments
+            Young but experienced developer with a proven track record in
+            diverse development environments
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Highlights */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Key Strengths</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">
+              Key Strengths
+            </h3>
             <div className="space-y-6">
               {highlights.map((highlight, index) => (
                 <div
@@ -70,7 +80,9 @@ const Experience = () => {
 
           {/* Career Timeline */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Career Journey</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">
+              Career Journey
+            </h3>
             <div className="space-y-6">
               {companies.map((company, index) => (
                 <div
@@ -79,9 +91,15 @@ const Experience = () => {
                 >
                   <div className="absolute -left-2 top-0 w-4 h-4 bg-orange-500 rounded-full"></div>
                   <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <h4 className="text-lg font-semibold text-gray-900">{company.role}</h4>
-                    <p className="text-orange-600 font-medium">{company.name}</p>
-                    <p className="text-sm text-gray-500 mt-1">{company.period}</p>
+                    <h4 className="text-lg font-semibold text-gray-900">
+                      {company.role}
+                    </h4>
+                    <p className="text-orange-600 font-medium">
+                      {company.name}
+                    </p>
+                    <p className="text-sm text-gray-500 mt-1">
+                      {company.period}
+                    </p>
                   </div>
                 </div>
               ))}

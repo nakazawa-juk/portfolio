@@ -10,7 +10,10 @@ const Hero = () => {
   };
 
   return (
-    <section id="about" className="min-h-screen flex items-center bg-gradient-to-br from-orange-50 to-cream-100">
+    <section
+      id="about"
+      className="min-h-screen flex items-center bg-gradient-to-br from-orange-50 to-cream-100"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">

@@ -18,8 +18,8 @@ const Skills = () => {
             Technical Skills
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Passionate about modern web technologies and building scalable solutions
-            from concept to deployment.
+            Passionate about modern web technologies and building scalable
+            solutions from concept to deployment.
           </p>
         </div>
 
@@ -32,7 +32,9 @@ const Skills = () => {
             >
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">{skill.icon}</span>
-                <h3 className="text-xl font-semibold text-gray-900">{skill.name}</h3>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  {skill.name}
+                </h3>
               </div>
               <div className="space-y-2">
                 <div className="flex justify-between text-sm text-gray-600">
