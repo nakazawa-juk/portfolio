@@ -24,11 +24,11 @@ const Header = () => {
   };
 
   const navItems = [
-    { id: 'about', label: 'About' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'experience', label: 'Experience' },
-    { id: 'works', label: 'Works' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'about', label: 'プロフィール' },
+    { id: 'skills', label: 'スキル' },
+    { id: 'experience', label: '経歴' },
+    { id: 'works', label: '実績' },
+    { id: 'contact', label: 'コンタクト' },
   ];
 
   return (

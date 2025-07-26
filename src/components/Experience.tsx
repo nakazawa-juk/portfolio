@@ -5,26 +5,26 @@ const Experience = () => {
   const highlights = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: 'Full-Stack Development',
+      title: 'フルスタック開発',
       description:
-        'End-to-end development from requirements analysis to deployment',
+        '要件分析からデプロイまでのエンドツーエンド開発',
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: 'Team Collaboration',
+      title: 'チーム協働',
       description:
-        'Extensive experience in both large-scale and startup environments',
+        '大規模企業からスタートアップまで様々な環境での豊富な経験',
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      title: 'Rapid Development',
+      title: '高速開発',
       description:
-        'Focused on efficiency and speed without compromising quality',
+        '品質を妥協することなく効率性とスピードを重視',
     },
     {
       icon: <Calendar className="w-6 h-6" />,
-      title: 'Project Leadership',
-      description: 'Led multiple projects from zero-to-one implementation',
+      title: 'プロジェクトリーダーシップ',
+      description: '複数のプロジェクトでゼロから立ち上げをリード',
     },
   ];
 
@@ -44,11 +44,11 @@ const Experience = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Experience
+            経歴
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Young but experienced developer with a proven track record in
-            diverse development environments
+            多様な開発環境での実績を持つ、
+            若いながらも経験豊富なエンジニアです
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const Experience = () => {
           {/* Highlights */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-8">
-              Key Strengths
+              主な強み
             </h3>
             <div className="space-y-6">
               {highlights.map((highlight, index) => (
@@ -81,7 +81,7 @@ const Experience = () => {
           {/* Career Timeline */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-8">
-              Career Journey
+              キャリア
             </h3>
             <div className="space-y-6">
               {companies.map((company, index) => (

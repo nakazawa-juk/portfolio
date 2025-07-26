@@ -15,11 +15,11 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Technical Skills
+            技術スキル
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Passionate about modern web technologies and building scalable
-            solutions from concept to deployment.
+            モダンなWeb技術に情熱を注いでおり、コンセプトからデプロイまで
+            拡張性のあるソリューションを構築しています。
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Skills = () => {
               </div>
               <div className="space-y-2">
                 <div className="flex justify-between text-sm text-gray-600">
-                  <span>Proficiency</span>
+                  <span>習熟度</span>
                   <span>{skill.level}%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">

@@ -4,9 +4,9 @@ import { ExternalLink, Github } from 'lucide-react';
 const Works = () => {
   const projects = [
     {
-      title: 'E-commerce SaaS Platform',
+      title: 'ECサイト・SaaSプラットフォーム',
       description:
-        'Full-stack e-commerce solution built with Next.js and AWS. Features include inventory management, payment processing, and analytics dashboard.',
+        'Next.jsとAWSで構築されたフルスタックEC事業プラットフォーム。在庫管理、決済処理、分析ダッシュボードなどの機能を実装。',
       technologies: ['Next.js', 'TypeScript', 'AWS', 'Stripe'],
       image:
         'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -14,9 +14,9 @@ const Works = () => {
       codeUrl: '#',
     },
     {
-      title: 'Real-time Chat Application',
+      title: 'リアルタイムチャットアプリケーション',
       description:
-        'WebSocket-based chat application with React frontend and Express backend. Supports multiple rooms, file sharing, and user authentication.',
+        'ReactフロントエンドとExpressバックエンドによるWebSocketベースのチャットアプリ。複数ルーム、ファイル共有、ユーザー認証に対応。',
       technologies: ['React', 'Express', 'Socket.io', 'MongoDB'],
       image:
         'https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -24,9 +24,9 @@ const Works = () => {
       codeUrl: '#',
     },
     {
-      title: 'Task Management Dashboard',
+      title: 'タスク管理ダッシュボード',
       description:
-        'Comprehensive project management tool built with Vue.js. Features Kanban boards, time tracking, and team collaboration tools.',
+        'Vue.jsで構築された包括的なプロジェクト管理ツール。カンバンボード、時間追跡、チーム連携ツールなどを搭載。',
       technologies: ['Vue.js', 'Node.js', 'PostgreSQL', 'Docker'],
       image:
         'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -40,11 +40,11 @@ const Works = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Featured Works
+            主な実績
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A selection of projects showcasing my experience in building modern
-            web applications and SaaS solutions.
+            モダンなWebアプリケーションやSaaSソリューション構築の
+            経験を紹介するプロジェクトを厳選しました。
           </p>
         </div>
 
@@ -84,14 +84,14 @@ const Works = () => {
                     className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white text-sm font-medium rounded-lg hover:bg-orange-700 transition-colors"
                   >
                     <ExternalLink size={16} />
-                    Demo
+                    デモ
                   </a>
                   <a
                     href={project.codeUrl}
                     className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors"
                   >
                     <Github size={16} />
-                    Code
+                    コード
                   </a>
                 </div>
               </div>
