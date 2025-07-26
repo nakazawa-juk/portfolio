@@ -28,7 +28,7 @@ const Header = () => {
     { id: 'skills', label: 'スキル' },
     { id: 'experience', label: '経歴' },
     { id: 'works', label: '実績' },
-    { id: 'contact', label: 'コンタクト' },
+    { id: 'contact', label: 'お問合せ' },
   ];
 
   return (

@@ -10,12 +10,8 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            一緒に働きませんか
+            お問い合わせ
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            あなたの次のプロジェクトでのコラボレーションに興味がありますか？
-            新しい機会や革新的なアイデアについて話し合うことを常に歓迎しています。
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -27,11 +23,11 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-gray-900">Wantedly</h3>
             </div>
             <p className="text-gray-600 mb-6">
-              Wantedlyで私とつながり、専門的な経歴について詳しく知り、
-              潜在的な機会について話し合いましょう。
+              Wantedlyでのプロフィールを通じて、ご連絡ください。
             </p>
             <a
-              href="#"
+              href="https://www.wantedly.com/id/jukiya_nakazawa"
+              target="_blank"
               className="inline-flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors"
             >
               プロフィールを見る
@@ -47,11 +43,11 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-gray-900">Email</h3>
             </div>
             <p className="text-gray-600 mb-6">
-              直接的なコミュニケーションをお好みですか？メールをお送りいただければ、
-              できるだけ早くお返事いたします。
+              nakajuki6045@gmail.com
             </p>
             <a
-              href="mailto:jukiya.nakazawa@example.com"
+              href="mailto:nakajuki6045@gmail.com"
+              target="_blank"
               className="inline-flex items-center gap-2 border-2 border-orange-600 text-orange-600 px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 hover:text-white transition-colors"
             >
               メール送信

@@ -18,7 +18,7 @@ const Skills = () => {
             技術スキル
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            モダンなWeb技術に情熱を注いでおり、コンセプトからデプロイまで
+            モダンなWeb技術に情熱を注いでおり、設計からリリースまで
             拡張性のあるソリューションを構築しています。
           </p>
         </div>

@@ -19,12 +19,12 @@ const Experience = () => {
       icon: <Zap className="w-6 h-6" />,
       title: '高速開発',
       description:
-        '品質を妥協することなく効率性とスピードを重視',
+        '生成AIを活用した迅速なプロトタイピングと開発',
     },
     {
       icon: <Calendar className="w-6 h-6" />,
-      title: 'プロジェクトリーダーシップ',
-      description: '複数のプロジェクトでゼロから立ち上げをリード',
+      title: '信頼性の高い開発',
+      description: '細部への配慮と丁寧な実装で、バグの少ない安定したシステムを構築',
     },
   ];
 
@@ -48,7 +48,7 @@ const Experience = () => {
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             多様な開発環境での実績を持つ、
-            若いながらも経験豊富なエンジニアです
+            若いながらも経験豊富な開発者です。
           </p>
         </div>
 
