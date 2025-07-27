@@ -109,7 +109,7 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-                「IT技術で社会に貢献し、世の中に笑顔を増やしたい」
+                IT技術で社会に貢献し、世の中に笑顔を増やしたい
               </h1>
               <div className="text-lg text-orange-600 font-medium italic">
                 変化する社会のニーズに応えるため、
