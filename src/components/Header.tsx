@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,7 +65,23 @@ const Header = () => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-xl font-bold text-gray-900">Jukiya Nakazawa</div>
+          <div 
+            className="flex items-center gap-1 cursor-pointer group transition-all duration-200 hover:scale-105"
+            onClick={() => scrollToSection('about')}
+          >
+            <div className="flex-shrink-0">
+              <Image
+                src="/favicon.png"
+                alt="Jukiya Nakazawa Logo"
+                width={40}
+                height={40}
+                className="transition-transform duration-200 group-hover:scale-110"
+              />
+            </div>
+            <div className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors duration-200">
+              Jukiya Nakazawa
+            </div>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
