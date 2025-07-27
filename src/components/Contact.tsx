@@ -58,7 +58,7 @@ const Contact = () => {
 
         <div className="text-center bg-white rounded-xl p-8 shadow-lg">
           <h3 className="text-xl font-bold text-gray-900 mb-4">
-            求めている案件
+            得意分野
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="p-4 bg-orange-50 rounded-lg">

@@ -10,8 +10,8 @@ const Works = () => {
       technologies: ['Next.js', 'TypeScript', 'AWS', 'Stripe'],
       image:
         'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-      demoUrl: '#',
-      codeUrl: '#',
+      demoUrl: null,
+      codeUrl: null,
     },
     {
       title: 'リアルタイムチャットアプリケーション',
@@ -20,8 +20,8 @@ const Works = () => {
       technologies: ['React', 'Express', 'Socket.io', 'MongoDB'],
       image:
         'https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=600',
-      demoUrl: '#',
-      codeUrl: '#',
+      demoUrl: null,
+      codeUrl: null,
     },
     {
       title: 'タスク管理ダッシュボード',
@@ -30,8 +30,8 @@ const Works = () => {
       technologies: ['Vue.js', 'Node.js', 'PostgreSQL', 'Docker'],
       image:
         'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
-      demoUrl: '#',
-      codeUrl: '#',
+      demoUrl: null,
+      codeUrl: null,
     },
   ];
 
@@ -79,20 +79,24 @@ const Works = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <a
-                    href={project.demoUrl}
-                    className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white text-sm font-medium rounded-lg hover:bg-orange-700 transition-colors"
-                  >
-                    <ExternalLink size={16} />
-                    デモ
-                  </a>
-                  <a
-                    href={project.codeUrl}
-                    className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors"
-                  >
-                    <Github size={16} />
-                    コード
-                  </a>
+                  {project.demoUrl && (
+                    <a
+                      href={project.demoUrl}
+                      className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white text-sm font-medium rounded-lg hover:bg-orange-700 transition-colors"
+                    >
+                      <ExternalLink size={16} />
+                      デモ
+                    </a>
+                  )}
+                  {project.codeUrl && (
+                    <a
+                      href={project.codeUrl}
+                      className="flex items-center gap-2 px-4 py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <Github size={16} />
+                      コード
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

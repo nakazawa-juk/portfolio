@@ -1,10 +1,42 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
 const Hero = () => {
+  const [particles, setParticles] = useState([]);
+
+  useEffect(() => {
+    const generateParticles = () => {
+      const isMobile = window.innerWidth < 768;
+      const particleCount = isMobile ? 25 : 50; // モバイルでは半分に削減
+      const newParticles = [];
+      
+      for (let i = 0; i < particleCount; i++) {
+        newParticles.push({
+          id: i,
+          x: Math.random() * 100,
+          y: Math.random() * 100,
+          size: Math.random() * 6 + 3, // サイズを3-9pxに拡大
+          animationDelay: Math.random() * 20,
+          animationDuration: Math.random() * 15 + 15, // 少し速く
+        });
+      }
+      setParticles(newParticles);
+    };
+
+    generateParticles();
+
+    // レスポンシブ対応のためリサイズ時に再生成
+    const handleResize = () => {
+      generateParticles();
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
@@ -15,9 +47,61 @@ const Hero = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center bg-gradient-to-br from-orange-50 to-cream-100"
+      className="min-h-screen flex items-center relative overflow-hidden"
+      style={{
+        background: 'linear-gradient(135deg, #fff7ed 0%, #ffedd5 25%, #fed7aa 50%, #fdba74 75%, #fb923c 100%)',
+        backgroundSize: '400% 400%',
+        animation: 'gradientShift 15s ease infinite',
+      }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      {/* Animated Background Particles */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {particles.map((particle) => (
+          <div
+            key={particle.id}
+            className="absolute rounded-full opacity-40"
+            style={{
+              left: `${particle.x}%`,
+              top: `${particle.y}%`,
+              width: `${particle.size}px`,
+              height: `${particle.size}px`,
+              background: 'linear-gradient(45deg, #fb923c, #f97316)',
+              boxShadow: '0 0 10px rgba(251, 146, 60, 0.3)',
+              animationDelay: `${particle.animationDelay}s`,
+              animationDuration: `${particle.animationDuration}s`,
+              animation: 'float 20s ease-in-out infinite, fade 8s ease-in-out infinite alternate',
+            }}
+          />
+        ))}
+      </div>
+
+      {/* Geometric Shapes */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-16 md:w-32 h-16 md:h-32 border-2 border-orange-400 rounded-full opacity-60 animate-spin-slow shadow-lg" />
+        <div className="absolute bottom-1/4 right-1/4 w-12 md:w-24 h-12 md:h-24 border-2 border-orange-500 rounded-full opacity-50 animate-pulse shadow-md" />
+        <div className="absolute top-1/2 right-1/3 w-8 md:w-16 h-8 md:h-16 bg-gradient-to-r from-orange-300 to-orange-500 rounded-full opacity-50 animate-bounce-slow shadow-lg" />
+        <div className="absolute top-3/4 left-1/3 w-6 md:w-12 h-20 md:h-40 bg-gradient-to-b from-orange-200 to-transparent opacity-40 animate-pulse transform rotate-12" />
+        <div className="absolute top-1/3 right-1/4 w-6 md:w-12 h-20 md:h-40 bg-gradient-to-b from-orange-300 to-transparent opacity-40 animate-bounce-slow transform -rotate-12" />
+      </div>
+
+      {/* Wave Background Effects */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-1/2 -left-1/2 w-full h-full opacity-30">
+          <div
+            className="w-full h-full"
+            style={{
+              background: `
+                radial-gradient(circle at 20% 50%, rgba(251, 146, 60, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(249, 115, 22, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(254, 215, 170, 0.4) 0%, transparent 50%)
+              `,
+              animation: 'gradientShift 20s ease infinite',
+            }}
+          />
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-6">

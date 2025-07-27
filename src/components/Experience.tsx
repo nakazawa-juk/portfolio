@@ -1,42 +1,13 @@
 import React from 'react';
-import { Calendar, Users, Code, Zap } from 'lucide-react';
 
 const Experience = () => {
-  const highlights = [
-    {
-      icon: <Code className="w-6 h-6" />,
-      title: 'フルスタック開発',
-      description:
-        '要件分析からデプロイまでのエンドツーエンド開発',
-    },
-    {
-      icon: <Users className="w-6 h-6" />,
-      title: 'チーム協働',
-      description:
-        '大規模企業からスタートアップまで様々な環境での豊富な経験',
-    },
-    {
-      icon: <Zap className="w-6 h-6" />,
-      title: '高速開発',
-      description:
-        '生成AIを活用した迅速なプロトタイピングと開発',
-    },
-    {
-      icon: <Calendar className="w-6 h-6" />,
-      title: '信頼性の高い開発',
-      description: '細部への配慮と丁寧な実装で、バグの少ない安定したシステムを構築',
-    },
-  ];
-
   const companies = [
+    { name: 'Junior Developer', role: '社内エンジニア', period: '2021 - 2022' },
     {
-      name: 'Startup A',
-      role: 'Senior Frontend Developer',
-      period: '2023 - Present',
+      name: 'Full-Stack Developer',
+      role: 'フリーランスエンジニア',
+      period: '2022 - 現在',
     },
-    { name: 'Tech Corp', role: 'Full-Stack Developer', period: '2022 - 2023' },
-    { name: 'Innovation Lab', role: 'Web Developer', period: '2021 - 2022' },
-    { name: 'Digital Agency', role: 'Junior Developer', period: '2020 - 2021' },
   ];
 
   return (
@@ -53,28 +24,23 @@ const Experience = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Highlights */}
+          {/* Profile */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-8">
-              主な強み
+              プロフィール
             </h3>
-            <div className="space-y-6">
-              {highlights.map((highlight, index) => (
-                <div
-                  key={index}
-                  className="flex gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
-                >
-                  <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center text-orange-600">
-                    {highlight.icon}
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                      {highlight.title}
-                    </h4>
-                    <p className="text-gray-600">{highlight.description}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="prose prose-gray max-w-none">
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  2000年生まれ。<br/>8歳から野球を始める。中高一貫校へ進学し甲子園出場。TVをはじめとしたメディア出演を多数経験。
+                </p>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  野球引退後、栄養学やスポーツ生理学を学術論文等から独学し、ブログ執筆・YouTube配信を開始。パーソナルトレーナー活動のためのHP制作を通じてITリテラシーを養う。
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                  システム開発に興味を持ち、プログラミングを独学。インターン・社内SEを経て、2022年に独立。これまで10以上のプロジェクトでシステム開発を経験。
+                </p>
+              </div>
             </div>
           </div>
 
