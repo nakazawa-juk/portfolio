@@ -32,7 +32,10 @@ const Experience = () => {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="prose prose-gray max-w-none">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  2000年生まれ。<br/>8歳から野球を始める。中高一貫校へ進学し甲子園出場。TVをはじめとしたメディア出演を多数経験。
+                  中澤 樹希也（なかざわ じゅきや） 
+                </p>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  2000年生まれ。<br/>8歳から野球を始める。中高一貫校へ進学し甲子園出場。<br/>TV等メディア出演を多数経験。
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
                   野球引退後、栄養学やスポーツ生理学を学術論文等から独学し、ブログ執筆・YouTube配信を開始。パーソナルトレーナー活動のためのHP制作を通じてITリテラシーを養う。
