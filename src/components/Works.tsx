@@ -4,7 +4,7 @@ import { ExternalLink, Github } from 'lucide-react';
 const Works = () => {
   const projects = [
     {
-      title: 'スイーツ販売ECサイト',
+      title: '宅配食品ECサイト',
       description:
         '自社製造のスイーツを販売するモバイル向けECサイト。モバイルファーストのユーザビリティを重視し、決済処理やマイページ機能など包括的なEC機能を実装。セキュアな決済システムとレスポンシブデザインで開発。',
       technologies: ['Next.js', 'React', 'TypeScript', 'Drizzle', 'AWS', 'Vercel', 'MySQL', 'Pay.JP'],
@@ -14,9 +14,9 @@ const Works = () => {
       codeUrl: null,
     },
     {
-      title: '税理士紹介営業自動化システム',
+      title: '営業業務自動化SaaS',
       description:
-        '税理士紹介サービスの営業プロセスを自動化するシステム。GraphQLを活用したモダンなアーキテクチャで、顧客管理から紹介マッチング、営業フロー管理まで包括的に対応。スクラム開発でビジネス現場との密接な連携を実現。',
+        '税理士マッチング事業の営業業務を自動化するサービス。GraphQLを活用したモダンなアーキテクチャで、顧客管理から紹介マッチング、営業フロー管理まで包括的に対応。スクラム開発でビジネス現場との密接な連携を実現。',
       technologies: ['React', 'Next.js', 'GraphQL', 'Prisma', 'AWS', 'Docker', 'Jest', 'GitHub Actions'],
       image:
         'https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -24,7 +24,7 @@ const Works = () => {
       codeUrl: null,
     },
     {
-      title: '家計管理Webアプリ',
+      title: '家計管理アプリ',
       description:
         '複数人で共有できる家計管理アプリケーション。企画から要件定義、設計、開発、テスト、リリースまで全工程を一人で担当。AWSクラウドサービスを活用した堅牢なインフラ設計とCI/CD自動化を実装した個人開発プロジェクト。',
       technologies: ['Vue.js', 'Python', 'PostgreSQL', 'AWS', 'Lambda', 'API Gateway', 'S3', 'CloudFront', 'Jest', 'Cypress', 'GitHub Actions'],
