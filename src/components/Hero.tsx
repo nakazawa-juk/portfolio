@@ -67,9 +67,12 @@ const Hero = () => {
               height: `${particle.size}px`,
               background: 'linear-gradient(45deg, #fb923c, #f97316)',
               boxShadow: '0 0 10px rgba(251, 146, 60, 0.3)',
-              animationDelay: `${particle.animationDelay}s`,
-              animationDuration: `${particle.animationDuration}s`,
-              animation: 'float 20s ease-in-out infinite, fade 8s ease-in-out infinite alternate',
+              animationName: 'float, fade',
+              animationDuration: `${particle.animationDuration}s, 8s`,
+              animationTimingFunction: 'ease-in-out, ease-in-out',
+              animationIterationCount: 'infinite, infinite',
+              animationDirection: 'normal, alternate',
+              animationDelay: `${particle.animationDelay}s, ${particle.animationDelay}s`,
             }}
           />
         ))}
