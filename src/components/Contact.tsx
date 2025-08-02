@@ -42,9 +42,7 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900">Email</h3>
             </div>
-            <p className="text-gray-600 mb-6">
-              nakajuki6045@gmail.com
-            </p>
+            <p className="text-gray-600 mb-6">nakajuki6045@gmail.com</p>
             <a
               href="mailto:nakajuki6045@gmail.com"
               target="_blank"
@@ -57,15 +55,11 @@ const Contact = () => {
         </div>
 
         <div className="text-center bg-white rounded-xl p-8 shadow-lg">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">
-            得意分野
-          </h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">得意分野</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="p-4 bg-orange-50 rounded-lg">
               <div className="text-2xl mb-2">🚀</div>
-              <p className="text-sm font-medium text-gray-800">
-                ゼロイチ開発
-              </p>
+              <p className="text-sm font-medium text-gray-800">ゼロイチ開発</p>
             </div>
             <div className="p-4 bg-orange-50 rounded-lg">
               <div className="text-2xl mb-2">💡</div>
@@ -75,15 +69,11 @@ const Contact = () => {
             </div>
             <div className="p-4 bg-orange-50 rounded-lg">
               <div className="text-2xl mb-2">⚡</div>
-              <p className="text-sm font-medium text-gray-800">
-                最新技術
-              </p>
+              <p className="text-sm font-medium text-gray-800">最新技術</p>
             </div>
             <div className="p-4 bg-orange-50 rounded-lg">
               <div className="text-2xl mb-2">🎯</div>
-              <p className="text-sm font-medium text-gray-800">
-                効率的な開発
-              </p>
+              <p className="text-sm font-medium text-gray-800">効率的な開発</p>
             </div>
           </div>
         </div>

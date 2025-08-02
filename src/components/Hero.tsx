@@ -12,7 +12,7 @@ const Hero = () => {
       const isMobile = window.innerWidth < 768;
       const particleCount = isMobile ? 25 : 50; // モバイルでは半分に削減
       const newParticles = [];
-      
+
       for (let i = 0; i < particleCount; i++) {
         newParticles.push({
           id: i,
@@ -49,7 +49,8 @@ const Hero = () => {
       id="about"
       className="min-h-screen flex items-center relative overflow-hidden"
       style={{
-        background: 'linear-gradient(135deg, #fff7ed 0%, #ffedd5 25%, #fed7aa 50%, #fdba74 75%, #fb923c 100%)',
+        background:
+          'linear-gradient(135deg, #fff7ed 0%, #ffedd5 25%, #fed7aa 50%, #fdba74 75%, #fb923c 100%)',
         backgroundSize: '400% 400%',
         animation: 'gradientShift 15s ease infinite',
       }}

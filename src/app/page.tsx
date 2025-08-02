@@ -7,6 +7,7 @@ import Works from '../components/Works';
 import Contact from '../components/Contact';
 
 export default function Home() {
+  // PostToolUse設定確認用の一時的なコメント
   return (
     <div className="min-h-screen bg-cream-50">
       <Header />

@@ -7,7 +7,16 @@ const Works = () => {
       title: '宅配食品ECサイト',
       description:
         '自社製造のスイーツを販売するモバイル向けECサイト。モバイルファーストのユーザビリティを重視し、決済処理やマイページ機能など包括的なEC機能を実装。セキュアな決済システムとレスポンシブデザインで開発。',
-      technologies: ['Next.js', 'React', 'TypeScript', 'Drizzle', 'AWS', 'Vercel', 'MySQL', 'Pay.JP'],
+      technologies: [
+        'Next.js',
+        'React',
+        'TypeScript',
+        'Drizzle',
+        'AWS',
+        'Vercel',
+        'MySQL',
+        'Pay.JP',
+      ],
       image:
         'https://images.pexels.com/photos/1098592/pexels-photo-1098592.jpeg?auto=compress&cs=tinysrgb&w=600',
       demoUrl: null,
@@ -17,7 +26,16 @@ const Works = () => {
       title: '営業業務自動化SaaS',
       description:
         '税理士マッチング事業の営業業務を自動化するサービス。GraphQLを活用したモダンなアーキテクチャで、顧客管理から紹介マッチング、営業フロー管理まで包括的に対応。スクラム開発でビジネス現場との密接な連携を実現。',
-      technologies: ['React', 'Next.js', 'GraphQL', 'Prisma', 'AWS', 'Docker', 'Jest', 'GitHub Actions'],
+      technologies: [
+        'React',
+        'Next.js',
+        'GraphQL',
+        'Prisma',
+        'AWS',
+        'Docker',
+        'Jest',
+        'GitHub Actions',
+      ],
       image:
         'https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=600',
       demoUrl: null,
@@ -27,7 +45,19 @@ const Works = () => {
       title: '家計管理アプリ',
       description:
         '複数人で共有できる家計管理アプリケーション。企画から要件定義、設計、開発、テスト、リリースまで全工程を一人で担当。AWSクラウドサービスを活用した堅牢なインフラ設計とCI/CD自動化を実装した個人開発プロジェクト。',
-      technologies: ['Vue.js', 'Python', 'PostgreSQL', 'AWS', 'Lambda', 'API Gateway', 'S3', 'CloudFront', 'Jest', 'Cypress', 'GitHub Actions'],
+      technologies: [
+        'Vue.js',
+        'Python',
+        'PostgreSQL',
+        'AWS',
+        'Lambda',
+        'API Gateway',
+        'S3',
+        'CloudFront',
+        'Jest',
+        'Cypress',
+        'GitHub Actions',
+      ],
       image:
         'https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=600',
       demoUrl: null,

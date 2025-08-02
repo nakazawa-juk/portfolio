@@ -6,25 +6,23 @@ const Strengths = () => {
     {
       icon: <Code className="w-6 h-6" />,
       title: 'フルスタック開発',
-      description:
-        '要件分析からデプロイまでのエンドツーエンド開発',
+      description: '要件分析からデプロイまでのエンドツーエンド開発',
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: 'チーム協働',
-      description:
-        '大規模企業からスタートアップまで様々な環境での豊富な経験',
+      description: '大規模企業からスタートアップまで様々な環境での豊富な経験',
     },
     {
       icon: <Zap className="w-6 h-6" />,
       title: '高速開発',
-      description:
-        '生成AIを活用した迅速なプロトタイピングと開発',
+      description: '生成AIを活用した迅速なプロトタイピングと開発',
     },
     {
       icon: <Calendar className="w-6 h-6" />,
       title: '信頼性の高い開発',
-      description: '細部への配慮と丁寧な実装で、バグの少ない安定したシステムを構築',
+      description:
+        '細部への配慮と丁寧な実装で、バグの少ない安定したシステムを構築',
     },
   ];
 
@@ -36,8 +34,7 @@ const Strengths = () => {
             主な強み
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            技術力とチームワークを活かした
-            高品質なシステム開発を実現します。
+            技術力とチームワークを活かした 高品質なシステム開発を実現します。
           </p>
         </div>
 

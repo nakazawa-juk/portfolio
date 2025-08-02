@@ -18,8 +18,7 @@ const Experience = () => {
             経歴
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            多様な開発環境での実績を持つ、
-            若いながらも経験豊富な開発者です。
+            多様な開発環境での実績を持つ、 若いながらも経験豊富な開発者です。
           </p>
         </div>
 
@@ -32,10 +31,14 @@ const Experience = () => {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="prose prose-gray max-w-none">
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  中澤 樹希也（なかざわ じゅきや） 
+                  中澤 樹希也（なかざわ じゅきや）
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  2000年生まれ。<br/>8歳から野球を始める。中高一貫校へ進学し甲子園出場。<br/>TV等メディア出演を多数経験。
+                  2000年生まれ。
+                  <br />
+                  8歳から野球を始める。中高一貫校へ進学し甲子園出場。
+                  <br />
+                  TV等メディア出演を多数経験。
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
                   野球引退後、栄養学やスポーツ生理学を学術論文等から独学し、ブログ執筆・YouTube配信を開始。パーソナルトレーナー活動のためのHP制作を通じてITリテラシーを養う。
@@ -49,9 +52,7 @@ const Experience = () => {
 
           {/* Career Timeline */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">
-              キャリア
-            </h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">キャリア</h3>
             <div className="space-y-6">
               {companies.map((company, index) => (
                 <div

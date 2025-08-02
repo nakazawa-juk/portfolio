@@ -3,8 +3,17 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Jukiya Nakazawa | Portfolio',
-  description: 'フリーランスエンジニア 中澤樹希也のポートフォリオサイト。フルスタック開発、モダンなWebアプリケーション開発の実績をご紹介します。',
-  keywords: ['フリーランスエンジニア', 'フルスタック開発', 'Next.js', 'React', 'TypeScript', 'AWS', '中澤樹希也'],
+  description:
+    'フリーランスエンジニア 中澤樹希也のポートフォリオサイト。フルスタック開発、モダンなWebアプリケーション開発の実績をご紹介します。',
+  keywords: [
+    'フリーランスエンジニア',
+    'フルスタック開発',
+    'Next.js',
+    'React',
+    'TypeScript',
+    'AWS',
+    '中澤樹希也',
+  ],
   authors: [{ name: 'Jukiya Nakazawa' }],
   creator: 'Jukiya Nakazawa',
   publisher: 'Jukiya Nakazawa',
@@ -19,7 +28,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Jukiya Nakazawa | フリーランスエンジニア ポートフォリオ',
-    description: 'フリーランスエンジニア 中澤樹希也のポートフォリオサイト。フルスタック開発、モダンなWebアプリケーション開発の実績をご紹介します。',
+    description:
+      'フリーランスエンジニア 中澤樹希也のポートフォリオサイト。フルスタック開発、モダンなWebアプリケーション開発の実績をご紹介します。',
     url: 'https://jukiya-nakazawa.com',
     siteName: 'Jukiya Nakazawa Portfolio',
     locale: 'ja_JP',
@@ -36,9 +46,7 @@ export const metadata: Metadata = {
       { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon.png', sizes: '16x16', type: 'image/png' },
     ],
-    apple: [
-      { url: '/favicon.png', sizes: '180x180', type: 'image/png' },
-    ],
+    apple: [{ url: '/favicon.png', sizes: '180x180', type: 'image/png' }],
     shortcut: '/favicon.png',
   },
   manifest: '/site.webmanifest',
