@@ -30,3 +30,7 @@ out/
 next-env.d.ts
 
 tsconfig.tsbuildinfo
+
+# AI Tool Cache and Local Settings
+.serena/cache/
+.claude/settings.local.json
