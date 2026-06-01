@@ -42,9 +42,9 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900">Email</h3>
             </div>
-            <p className="text-gray-600 mb-6">nakajuki6045@gmail.com</p>
+            <p className="text-gray-600 mb-6">contact@jukiya-nakazawa.com</p>
             <a
-              href="mailto:nakajuki6045@gmail.com"
+              href="mailto:contact@jukiya-nakazawa.com"
               target="_blank"
               className="inline-flex items-center gap-2 border-2 border-orange-600 text-orange-600 px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 hover:text-white transition-colors"
             >
